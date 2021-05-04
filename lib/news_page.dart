@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './custom_icon_icons.dart';
+import './news_card.dart';
 
 class NewsPage extends StatelessWidget {
   @override
@@ -21,9 +22,11 @@ class NewsPage extends StatelessWidget {
           CardView(),
           CardView(),
           CardView(),
+          CardView(),
+          CardView(),
+          CardView(),
         ],
       ),
-
     );
   }
 }
@@ -73,26 +76,6 @@ class BannerView extends StatelessWidget {
             },
           ),
         ],
-      ),
-    );
-  }
-}
-
-
-class CardView extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Card(
-        color: Colors.white,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(5.0)),
-        ),
-        clipBehavior: Clip.antiAlias,
-        margin: EdgeInsets.symmetric(vertical: 7.5, horizontal: 10),
-        child: Container(
-          constraints: BoxConstraints.tightFor(height: 130.0),
-        ),
       ),
     );
   }
