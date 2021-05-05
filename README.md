@@ -2,5 +2,6 @@
 * 這是以ETtoday App為模板的Flutter Project。
 
 ## Android & iOS UI 示意圖
-![](https://i.imgur.com/i53UFAB.jpg)
+![](https://i.imgur.com/Q8c0GAl.jpg)
+
 
